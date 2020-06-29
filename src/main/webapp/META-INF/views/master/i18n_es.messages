@@ -31,6 +31,15 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
 
+master.menu.bulletin = Bulletins
+master.menu.bulletin.uno = MelgarBulletin
+master.menu.bulletin.uno.melgarBulletin.list = Bulletin de Melgar
+master.menu.bulletin.uno.melgarBulletin.form = ¡Grita a Melgar!
+master.menu.bulletin.dos = MinuesaBulletin
+master.menu.bulletin.dos.minuesaBulletin.list = Bulletin de Minuesa
+master.menu.bulletin.dos.minuesaBulletin.form = ¡Grita a Minuesa!
+
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador

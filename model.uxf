@@ -62,8 +62,8 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>238</x>
-      <y>70</y>
+      <x>224</x>
+      <y>441</y>
       <w>21</w>
       <h>42</h>
     </coordinates>
@@ -295,5 +295,39 @@ m1=1
 m2=*
 has v</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>273</x>
+      <y>385</y>
+      <w>231</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+MinuesaBulletin
+--
++ author: String {NotBlank}
++ text: String {NotBlank}
++ moment: Date {Temporal(TIMESTAMP), Past}
+bg=magenta</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>385</y>
+      <w>231</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+MelgarBulletin
+--
++ author: String {NotBlank}
++ text: String {NotBlank}
++ moment: Date {Temporal(TIMESTAMP), Past}
+bg=magenta</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
