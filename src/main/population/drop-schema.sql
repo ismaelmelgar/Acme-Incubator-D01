@@ -27,6 +27,10 @@
 
     drop table if exists `consumer`;
 
+    drop table if exists `melgar_bulletin`;
+
+    drop table if exists `minuesa_bulletin`;
+
     drop table if exists `provider`;
 
     drop table if exists `user_account`;
