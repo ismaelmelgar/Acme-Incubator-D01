@@ -20,7 +20,8 @@
 	<acme:menu-left>
 		<%--------------------Anonymous--------------------%>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/" />
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link.melgar" action="https://www.youtube.com"/>
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link.minuesa" action="https://www.hobbyconsolas.com"/>
 			<!--  Bulletins -->
 			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.bulletin.uno.melgarBulletin.list" action="/anonymous/melgarBulletin/list" />

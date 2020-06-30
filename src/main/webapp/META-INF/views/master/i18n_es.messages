@@ -29,7 +29,8 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
-master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.favourite-link.melgar = Enlace favorito de Melgar
+master.menu.anonymous.favourite-link.minuesa = Enlace favorito de Minuesa
 
 master.menu.bulletin = Bulletins
 master.menu.bulletin.uno = MelgarBulletin
