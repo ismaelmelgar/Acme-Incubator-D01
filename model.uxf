@@ -62,18 +62,6 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>224</x>
-      <y>441</y>
-      <w>21</w>
-      <h>42</h>
-    </coordinates>
-    <panel_attributes>lt=..
-</panel_attributes>
-    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
       <x>588</x>
       <y>203</y>
       <w>70</w>
@@ -299,16 +287,16 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>273</x>
+      <x>315</x>
       <y>385</y>
-      <w>231</w>
+      <w>294</w>
       <h>84</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 MinuesaBulletin
 --
-+ author: String {NotBlank}
-+ text: String {NotBlank}
++ author: String {Length(min = 1, max = 50)}
++ text: String {Column(length = 500), Length(min = 1, max = 500)}
 + moment: Date {Temporal(TIMESTAMP), Past}
 bg=magenta</panel_attributes>
     <additional_attributes/>
@@ -318,14 +306,14 @@ bg=magenta</panel_attributes>
     <coordinates>
       <x>0</x>
       <y>385</y>
-      <w>231</w>
+      <w>301</w>
       <h>84</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 MelgarBulletin
 --
-+ author: String {NotBlank}
-+ text: String {NotBlank}
++ author: String {Length(min = 1, max = 50)}
++ text: String {Column(length = 500), Length(min = 1, max = 500)}
 + moment: Date {Temporal(TIMESTAMP), Past}
 bg=magenta</panel_attributes>
     <additional_attributes/>
