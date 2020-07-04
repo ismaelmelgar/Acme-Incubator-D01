@@ -18,21 +18,12 @@
 
 <tiles-definitions>
 
-	<definition name="anonymous/melgar-bulletin/form" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/melgarBulletin/form.jsp" />
+	<definition name="anonymous/minuesa-bulletin/list" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/minuesaBulletin/list.jsp" />
 	</definition>
-	
-	<definition name="anonymous/melgar-bulletin/list" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/melgarBulletin/list.jsp" />
-	</definition>
-	
 	
 	<definition name="anonymous/minuesa-bulletin/form" extends="master">
 		<put-attribute name="body" type="template" value="../anonymous/minuesaBulletin/form.jsp" />
-	</definition>
-	
-	<definition name="anonymous/minuesa-bulletin/list" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/minuesaBulletin/list.jsp" />
 	</definition>
 
 </tiles-definitions>
