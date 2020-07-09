@@ -287,16 +287,16 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>315</x>
+      <x>357</x>
       <y>385</y>
-      <w>294</w>
+      <w>343</w>
       <h>84</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 MinuesaBulletin
 --
-+ author: String {Column(length = 50), Length(min = 1, max = 50)}
-+ text: String {Column(length = 500), Length(min = 1, max = 500)}
++ author: String {NotBlank, Column(length = 50), Length(min = 1, max = 50)}
++ text: String {NotBlank, Column(length = 500), Length(min = 1, max = 500)}
 + moment: Date {Temporal(TIMESTAMP), Past}
 bg=magenta</panel_attributes>
     <additional_attributes/>
@@ -306,14 +306,14 @@ bg=magenta</panel_attributes>
     <coordinates>
       <x>0</x>
       <y>385</y>
-      <w>301</w>
+      <w>343</w>
       <h>84</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 MelgarBulletin
 --
-+ author: String {Column(length = 50), Length(min = 1, max = 50)}
-+ text: String {Column(length = 500), Length(min = 1, max = 500)}
++ author: String {NotBlank, Column(length = 50), Length(min = 1, max = 50)}
++ text: String {NotBlank, Column(length = 500), Length(min = 1, max = 500)}
 + moment: Date {Temporal(TIMESTAMP), Past}
 bg=magenta</panel_attributes>
     <additional_attributes/>
